@@ -1,0 +1,42 @@
+[
+    {
+        "state_id": 1,
+        "name": "NC"
+    },
+    {
+        "state_id": 2,
+        "name": "VA"
+    },
+    {
+        "state_id": 3,
+        "name": "FL"
+    },
+    {
+        "state_id": 4,
+        "name": "KY"
+    },
+    {
+        "state_id": 5,
+        "name": "IN"
+    },
+    {
+        "state_id": 6,
+        "name": "SC"
+    },
+    {
+        "state_id": 7,
+        "name": "PA"
+    },
+    {
+        "state_id": 8,
+        "name": "NY"
+    },
+    {
+        "state_id": 9,
+        "name": "GA"
+    },
+    {
+        "state_id": 10,
+        "name": "MA"
+    }
+]

@@ -1,4 +1,4 @@
-package com.basketball.acc_bball.daos
+package com.basketball.acc_bball.data.daos
 
 import androidx.room.*
 import com.basketball.acc_bball.utils.Constants

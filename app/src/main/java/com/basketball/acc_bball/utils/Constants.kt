@@ -3,6 +3,7 @@ package com.basketball.acc_bball.utils
 class Constants {
 
     companion object {
+        const val DB_NAME = "acc_bball"
         const val PLAYER = "player"
         const val TEAM = "team"
         const val STATE = "state"

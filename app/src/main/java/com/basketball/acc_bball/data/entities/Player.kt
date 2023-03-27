@@ -1,4 +1,4 @@
-package com.basketball.acc_bball.entities
+package com.basketball.acc_bball.data.entities
 
 import com.basketball.acc_bball.utils.Constants
 import androidx.room.ColumnInfo
@@ -7,7 +7,7 @@ import androidx.room.PrimaryKey
 
 @Entity(tableName = Constants.PLAYER)
 data class Player(
-    @PrimaryKey val id: Int,
+    @PrimaryKey @ColumnInfo(name = Constants.PLAYER_ID) val id: Int,
     @ColumnInfo(name = Constants.TEAM_ID) val team_id: Int,
     @ColumnInfo(name = Constants.UNIFORM_NUM)val uniform_num: Int,
     @ColumnInfo(name = Constants.FIRST_NAME) val firstName: String,

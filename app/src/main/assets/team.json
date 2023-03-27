@@ -1,0 +1,122 @@
+[
+    {
+        "team_id": 1,
+        "name": "BostonCollege",
+        "state_id": 10,
+        "color_id": 7,
+        "wins": 2,
+        "losses": 16
+    },
+    {
+        "team_id": 2,
+        "name": "Clemson",
+        "state_id": 6,
+        "color_id": 2,
+        "wins": 6,
+        "losses": 12
+    },
+    {
+        "team_id": 3,
+        "name": "Duke",
+        "state_id": 1,
+        "color_id": 5,
+        "wins": 11,
+        "losses": 7
+    },
+    {
+        "team_id": 4,
+        "name": "FloridaState",
+        "state_id": 3,
+        "color_id": 7,
+        "wins": 12,
+        "losses": 6
+    },
+    {
+        "team_id": 5,
+        "name": "GeorgiaTech",
+        "state_id": 9,
+        "color_id": 6,
+        "wins": 8,
+        "losses": 10
+    },
+    {
+        "team_id": 6,
+        "name": "Louisville",
+        "state_id": 4,
+        "color_id": 4,
+        "wins": 12,
+        "losses": 6
+    },
+    {
+        "team_id": 7,
+        "name": "Miami",
+        "state_id": 3,
+        "color_id": 3,
+        "wins": 10,
+        "losses": 8
+    },
+    {
+        "team_id": 8,
+        "name": "NCSU",
+        "state_id": 1,
+        "color_id": 4,
+        "wins": 4,
+        "losses": 14
+    },
+    {
+        "team_id": 9,
+        "name": "NotreDame",
+        "state_id": 5,
+        "color_id": 6,
+        "wins": 12,
+        "losses": 6
+    },
+    {
+        "team_id": 10,
+        "name": "Pittsburgh",
+        "state_id": 7,
+        "color_id": 8,
+        "wins": 4,
+        "losses": 14
+    },
+    {
+        "team_id": 11,
+        "name": "Syracuse",
+        "state_id": 8,
+        "color_id": 2,
+        "wins": 10,
+        "losses": 8
+    },
+    {
+        "team_id": 12,
+        "name": "UNC",
+        "state_id": 1,
+        "color_id": 1,
+        "wins": 14,
+        "losses": 4
+    },
+    {
+        "team_id": 13,
+        "name": "Virginia",
+        "state_id": 2,
+        "color_id": 2,
+        "wins": 11,
+        "losses": 7
+    },
+    {
+        "team_id": 14,
+        "name": "VirginiaTech",
+        "state_id": 2,
+        "color_id": 7,
+        "wins": 10,
+        "losses": 8
+    },
+    {
+        "team_id": 15,
+        "name": "WakeForest",
+        "state_id": 1,
+        "color_id": 6,
+        "wins": 9,
+        "losses": 9
+    }
+]

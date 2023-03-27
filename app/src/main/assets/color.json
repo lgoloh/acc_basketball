@@ -1,0 +1,34 @@
+[
+    {
+        "color_id": 1,
+        "name": "LightBlue"
+    },
+    {
+        "color_id": 2,
+        "name": "Orange"
+    },
+    {
+        "color_id": 3,
+        "name": "Green"
+    },
+    {
+        "color_id": 4,
+        "name": "Red"
+    },
+    {
+        "color_id": 5,
+        "name": "DarkBlue"
+    },
+    {
+        "color_id": 6,
+        "name": "Gold"
+    },
+    {
+        "color_id": 7,
+        "name": "Maroon"
+    },
+    {
+        "color_id": 8,
+        "name": "Black"
+    }
+]
