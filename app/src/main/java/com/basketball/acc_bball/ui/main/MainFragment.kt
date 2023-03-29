@@ -7,6 +7,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.basketball.acc_bball.R
+import com.basketball.acc_bball.viewmodels.MainViewModel
 
 class MainFragment : Fragment() {
 

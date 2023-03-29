@@ -1,4 +1,4 @@
-package com.basketball.acc_bball.ui.main
+package com.basketball.acc_bball.viewmodels
 
 import androidx.lifecycle.ViewModel
 

@@ -5,17 +5,22 @@ import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
 import androidx.sqlite.db.SupportSQLiteDatabase
-import com.basketball.acc_bball.data.daos.QueryDao
-import com.basketball.acc_bball.data.daos.TeamDao
+import androidx.work.OneTimeWorkRequestBuilder
+import androidx.work.WorkManager
+import com.basketball.acc_bball.data.daos.*
 import com.basketball.acc_bball.data.entities.*
 import com.basketball.acc_bball.utils.Constants
+import com.basketball.acc_bball.workers.DatabaseInitializerWorker
 
 @Database(version = 1,
     entities = [Player::class, Team::class, State::class, Color::class],
-    exportSchema = true)
+    exportSchema = false)
 abstract class ACCDatabase : RoomDatabase() {
     abstract fun teamDao() : TeamDao
     abstract fun queryDao(): QueryDao
+    abstract fun playerDao() : PlayerDao
+    abstract fun stateDao() : StateDao
+    abstract fun colorDao() : ColorDao
 
     companion object {
 
@@ -34,6 +39,9 @@ abstract class ACCDatabase : RoomDatabase() {
                 object : Callback() {
                     override fun onCreate(db: SupportSQLiteDatabase) {
                         super.onCreate(db)
+                        val request =
+                            OneTimeWorkRequestBuilder<DatabaseInitializerWorker>().build()
+                        WorkManager.getInstance(context).enqueue(request)
                     }
                 }
             ).build()
